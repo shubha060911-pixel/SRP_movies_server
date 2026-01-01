@@ -3,32 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>SRP movie site</title>
+
     <style>
         body {
             margin: 0;
-            height: 100vh;
-            background-color: #000000; /* blue background */
+            min-height: 100vh;
+            background-color: #000000;
             color: white;
-            font-family: comic sans, sans-serif;
+            font-family: "Comic Sans MS", sans-serif;
+
             display: flex;
+            flex-direction: column;   /* THIS puts items on different levels */
             align-items: center;
             justify-content: center;
+            gap: 20px;               /* space between levels */
+        }
+
+        img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
         }
     </style>
 </head>
+
 <body>
-    <h1>site under development</h1>
-    <img src="T.I.jfif">
-</body>
-<body>
-    <p>
-        this should show up
-    </p>
-    <button><---></button>
+    <h1>Site under development</h1>
+
+    <img src="T.I.jfif" alt="Under development image">
+
+    <p>This should show up</p>
+
+    <button>&larr; &rarr;</button>
 </body>
 </html>
-
-
 
 
 
